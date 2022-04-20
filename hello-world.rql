@@ -7,6 +7,6 @@ hello_world() := {
 
 // Hello Name Example
 
-hello_name(name: string) := {
-"Hello "+name+"!"
+hello_name(name: string, name2: string) := {
+"Hello " + name + "!" + name2
 };
